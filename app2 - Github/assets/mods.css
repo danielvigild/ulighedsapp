@@ -1,0 +1,329 @@
+#tabs > li:nth-child(1){
+	cursor:pointer;
+}
+
+#tabs > li:nth-child(2){
+	cursor:pointer;
+}
+
+#tabs > li:nth-child(3){
+	cursor:pointer;
+}
+
+[class^="custom-control-label"]{
+	cursor:pointer;
+}
+
+[id*="open-help"]{
+	cursor:pointer;
+	background-color: rgb(242,146,12);
+	border: 1px solid rgb(242,146,12);
+	vertical-align: text-bottom;
+}
+
+[id*="open-help"]:hover{
+	background-color: rgb(255,255,255);
+	color: rgb(242,146,12);
+}
+
+[id$="variable-selector"]{
+	cursor:pointer;
+}
+
+[id$="measure-selector"]{
+	cursor:pointer;
+}
+
+[id$="year-selector"]{
+	cursor:pointer;
+}
+
+/* p {
+	margin-bottom: 1;
+} */
+
+@font-face {
+	font-family: "Avenir Next";
+	src: url("fonts/AvenirNext-Regular.ttf");
+}
+
+* {
+  font-family: "Avenir Next";
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src */
+}
+
+/* set font of header to match style of logo (from website) */
+#banner-header {
+	font-family: "Baskerville", serif;
+}
+
+/* Make radio buttons orange */
+.custom-control-input:checked
+~ .custom-control-label::before {
+	background-color: rgb(242,146,12);
+	border-color: rgb(242,146,12);
+	box-shadow: none;
+	outline: none;
+}
+
+/* Remove box shadow */
+.custom-select:focus, .custom-select:active, .custom-select.active, .custom-select:active:focus {
+  /* background-image: none; */
+ 	outline: none;
+  /* -webkit-box-shadow: none; */
+	box-shadow: none;
+}
+
+body {
+	background-color: rgb(244, 246, 248);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.dash-graph {
+	-moz-box-shadow: 0px 0px 8px 4px rgba(1,1,1,0.2);
+	-webkit-box-shadow: 0px 0px 8px 4px rgba(1,1,1,0.2);
+	box-shadow: 0px 0px 8px 4px rgba(1,1,1,0.2);
+}
+
+#id-guide {
+	position: absolute;
+	z-index: 2;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+#top-banner {
+	position: relative;
+	z-index: 100;
+	-moz-box-shadow: 0px 4px 4px 0px rgba(1,1,1,0.1);
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(1,1,1,0.1);
+	box-shadow: 0px 4px 4px 0px rgba(1,1,1,0.1);
+}
+
+#icon-filtre {
+	/* background-color: rgb(0, 0, 248); */
+	/* cursor:pointer; */
+	/* padding: 2px;
+	border: 1px solid rgb(218, 223, 227);
+	border-radius: 4px; */
+}
+
+#icon-filtre:hover {
+	/* background-color: rgb(255, 255, 255); */
+}
+
+#id-frontpage {
+	background-image: url('UlighedsApp_baggrund.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#id-frontpage-text-two {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	padding-bottom: 1rem;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#id-frontpage-three-icons {
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 6%;
+}
+
+#id-frontpage-button-intro {
+	position: absolute;
+  	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin-top: 1%;
+	background-color: rgb(255,255,255);
+	color: rgb(242,146,12);
+}
+
+#id-frontpage-button-intro:hover {
+	background-color: rgb(242,146,12);
+	color: rgb(255,255,255);
+}
+
+.class-frontpage-three-icons {
+	height: 12rem;
+}
+
+.control_panel {
+	border-top: 1px solid rgb(218, 223, 227);
+	border-bottom: 1px solid rgb(218, 223, 227);
+	padding-top: 0.25em;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+	background-color: rgb(244, 246, 248);
+	display: none;
+}
+
+/* .control_panel:active {
+	display: block;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+} */
+
+#guide-button {
+	background-color: rgb(255, 255, 255);
+	color: rgb(242,146,12);
+	border: 1px solid rgb(242,146,12);
+}
+
+#guide-button:hover {
+	background-color: rgb(242,146,12);
+	color: rgb(255, 255, 255);
+}
+
+#button-income {
+	background-color: rgb(255,255,255);
+	color: rgb(51,51,51);
+	border: 1px solid rgb(51,51,51);
+}
+
+#button-health {
+	background-color: rgb(255,255,255);
+	color: rgb(51,51,51);
+	border: 1px solid rgb(51,51,51);
+}
+
+#button-education {
+	background-color: rgb(255,255,255);
+	color: rgb(51,51,51);
+	border: 1px solid rgb(51,51,51);
+}
+
+#button-filtre {
+	background-color: rgb(244, 246, 248);
+	color: rgb(51,51,51);
+	border: none;
+	padding-left: 0;
+}
+
+/* #button-documentation {
+	background-color: rgb(244, 246, 248);
+	color: #6c757d;
+	border: 1px solid #6c757d;
+} */
+
+#button-documentation:hover {
+	background-color: rgb(108, 117, 125);
+	color: rgb(255,255,255);
+	border: 1px solid rgb(108, 117, 125);
+}
+
+#button-income:hover {
+	background-color: rgb(108, 117, 125);
+	color: rgb(255,255,255);
+}
+
+#button-health:hover {
+	background-color: rgb(51,51,51);
+	color: rgb(255,255,255);
+}
+
+#button-education:hover {
+	background-color: rgb(51,51,51);
+	color: rgb(255,255,255);
+}
+
+#income-clear-memory-button {
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(218, 223, 227);
+	color: #495057;
+}
+
+#income-clear-memory-button:active{
+	border: 1px solid rgb(51,190,255);
+	/* color: rgb(242,146,12); */
+}
+
+#income-clear-memory-button:focus, #income-clear-memory-button:active, #income-clear-memory-button.active, #income-clear-memory-button:hover:active:focus {
+	background-image: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	transition: none;
+}
+
+#education-clear-memory-button {
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(218, 223, 227);
+	color: #495057;
+}
+
+#education-clear-memory-button:active{
+	border: 1px solid rgb(51,190,255);
+	/* color: rgb(242,146,12); */
+}
+
+#education-clear-memory-button:focus, #education-clear-memory-button:active, #education-clear-memory-button.active, #education-clear-memory-button:hover:active:focus {
+	background-image: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	transition: none;
+}
+
+#health-clear-memory-button {
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(218, 223, 227);
+	color: #495057;
+}
+
+#health-clear-memory-button:active{
+	border: 1px solid rgb(51,190,255);
+	/* color: rgb(242,146,12); */
+}
+
+#health-clear-memory-button:focus, #health-clear-memory-button:active, #health-clear-memory-button.active, #health-clear-memory-button:hover:active:focus {
+	background-image: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	transition: none;
+}
+
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#income-download-button.active.focus, #income-download-button.active:focus, #income-download-button.focus, #income-download-button.focus:active, #income-download-button:active:focus, .btn:focus {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#education-download-button.active.focus, #education-download-button.active:focus, #education-download-button.focus, #education-download-button.focus:active, #education-download-button:active:focus, .btn:focus {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#health-download-button.active.focus, #health-download-button.active:focus, #health-download-button.focus, #health-download-button.focus:active, #health-download-button:active:focus, .btn:focus {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
